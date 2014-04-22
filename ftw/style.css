@@ -1,0 +1,95 @@
+
+#header{
+	text-align:center;
+}
+#wrapper{
+	overflow:auto;
+	background: #CFCFCF;
+	width: 66%;
+	margin:0 auto;
+	border-radius: 30px;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding: 10px;
+	min-width: 900px;
+}
+#menu
+{
+	padding: 5px;
+	margin-top: 0;
+	font-size: 1.5em;
+	text-align: center;
+	background: #717171;
+	border-radius: 15px;
+}
+
+
+#menu ul li {
+	list-style-type: none;
+	display: inline;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: 600;
+}
+#menu ul li a{
+	color: #1A4280;
+}
+
+#menu ul li a:hover{
+	padding-top: 39px;
+	padding-bottom: 39px;
+}
+
+
+#content a{
+	display: inline;
+	text-align:center;
+	color: #000000;
+	position:relative;
+}
+#footer{
+	text-align: center;
+	width:100%;
+}
+
+#footer ul li {
+	list-style-type: none;
+	display: inline;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+body{
+	background:#8D8D8D url("./pics/bg.png") repeat right top;	
+}
+h2{
+	text-align:center;
+	text-decoration: underline;
+}
+li.other{
+	list-style-type: none;
+	padding-left: 42%;
+	font-size: xx-large;
+}
+li.up{
+	position:relative;
+	top: -10px;
+	font-size: 0.75em;
+}
+
+p.dec{
+	font-size: 0.75em;
+	text-align:center;
+}
+a {
+	text-decoration: none;
+	color: #E42E33;
+}
+
+
+a:hover {
+	text-decoration: underline;
+}
+
+
