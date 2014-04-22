@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<rel<link rel="stylesheet" type="text/css" href="main.css"/><title>HCI prototype</title>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="fishermanprofile.html">Your Profile</a></li>
+			<li><a href="auctions.html">Auctions</a></li>
+			<li><a href="uploadbatch.html">Upload Batch</a></li>
+		</ul>
+	</nav>
+	<h2>Upload a batch...</h2>
+	<form action="" method="POST">
+		Number of Crates:<input type="text"/><br/><br/>
+		Species:
+		<select name="species">
+			<option>Species 1</option>
+			<option>Species 2</option>
+			<option>Species 3</option>
+		</select>
+		<br/><br/>
+		Size:<br/>
+		<input type="radio" name="size"/>Small
+		<input type="radio" name="size"/>Medium
+		<input type="radio" name="size"/>Large<br/><br/>
+		Total Weight of Batch (kg):<input tpye="text"/><br/><br/>
+		<input type="button" value="Submit"/>
+		<input type="button" value="Print label for this batch"/>
+	</form>
+	<br/><br/>
+	<a href="uploadbatch.html">Upload another batch</a>
+</body>
+</html>

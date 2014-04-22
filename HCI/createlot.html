@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" type="text/css" href="main.css"/>
+<title>HCI prototype</title>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="buyerprofile.html">Your Profile</a></li>
+			<li><a href="auctions.html">Auctions</a></li>
+		</ul>
+	</nav>
+	<h2>Create a lot for bidding on</h2>
+<div id = "available_batchs">
+	<form action="createlot.html" method="POST">
+		Weight of Batch (kg):<input tpye="text"/><br/>
+		Closing Date: <input type="date"/><br/>
+		Species:
+		<select name="species">
+			<option>Species 1</option>
+			<option>Species 2</option>
+			<option>Species 3</option>
+		</select><br/><br/>
+		Weight class:<br/>
+		<input type="radio" name="size"/>Small
+		<input type="radio" name="size"/>Medium
+		<input type="radio" name="size"/>Large<br/><br/>
+		<input type="submit" value="Submit"/>
+		
+	</form>
+</div>
+	<h2>Available batches</h2>
+	<div id="available_batches">
+		<div class="batch">
+			<h3>Batch 123</h3>
+			Species: Species 1<br/>
+			Weight class: Medium<br/>
+			Date caught: 01/01/2014<br/><br/>
+			<input type="button" value="Add to lot"/>
+		</div>
+		<div class="batch">
+			<h3>Batch 124</h3>
+			Species: Species 1<br/>
+			Weight class: Medium<br/>
+			Date caught: 01/01/2014<br/><br/>
+			<input type="button" value="Add to lot"/>
+		</div>
+		<div class="batch">
+			<h3>Batch 125</h3>
+			Species: Species 1<br/>
+			Weight class: Medium<br/>
+			Date caught: 01/01/2014<br/><br/>
+			<input type="button" value="Add to lot"/>
+		</div>
+	</div>
+	<input type="button" value="Upload lot to Auction"/>
+</body>
+</html>

@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: blue;
+	font-family: "Arial";
+}
+
+#header {
+	width: 70%;
+	height: 50px;
+	padding: 10px;
+	margin: 0 auto 0;
+	text-align: right;
+}
+
+#header h2 {
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+/* ========== Navigation Menu =========== */
+
+nav{
+	/*background: -webkit-linear-gradient(#87cefa, #191970);
+	background: -o-linear-gradient(#87cefa, #191970);
+	background: -moz-linear-gradient(#87cefa, #191970);
+	background: linear-gradient(#87cefa, #191970);*/
+	background: green; 
+	border-radius: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 100%;
+	margin: 5px auto 0;
+}
+
+nav a{
+	color: inherit;
+	text-decoration: none;
+}
+
+nav li{
+	display: inline-block;
+	padding: 10px;
+	color: #ffffff;
+	margin: 0 5px;
+	font-weight: bold;
+}
+
+nav li:hover{
+	/*background: -webkit-linear-gradient(#76bde9, #080860);
+	background: -o-linear-gradient(#76bde9, #080860);
+	background: -moz-linear-gradient(#76bde9, #080860);
+	background: linear-gradient(#76bde9, #080860);*/
+	color: black;
+ }
+
+/* ========= Main Body Components ======== */
+
+/* === Auctions Page === */
+#recent_auctions {
+	width: 80%;
+	margin: 15px auto 0;
+}
+
+.auction {
+	padding: 5px;
+	width: 100%;
+	background-color: gray;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	float: left;
+}
+
+.auction:hover {
+	background-color: #cccccc;
+}
+
+.auction_details {
+	width: 70%;
+	padding: 5px;
+	float: left;
+}
+
+.bid {
+	margin: 30px auto 0;
+	float: left;
+}
+
+.place_bid {
+	width: 75px;
+	height: 30px;
+	background: #fdf5e6;
+	border: none;
+	border-radius: 3px;
+}
+
+.place_bid:hover {
+	width: 75px;
+	height: 30px;
+	background: #ece4d5;
+	border: none;
+	border-radius: 3px;
+}
+
+.place_bid:active {
+	width: 75px;
+	height: 30px;
+	background: -moz-linear-gradient(#fdf5e6, #ece4d5);
+	background: -webkit-linear-gradient(#fdf5e6, #ece4d5);
+	background: -o-linear-gradient(#fdf5e6, #ece4d5);
+	background: linear-gradient(#fdf5e6, #ece4d5);
+	border: none;
+	border-radius: 3px;
+}
+
+/* === Profile Page Styles === */
+#profile_main {
+	width: 80%;
+	margin: 15px auto 0;
+}
+
+.profile_component {
+	width: 50%;
+	padding: 5px;
+	margin-bottom: 10px;
+	background: -moz-linear-gradient(#fff5ee, #fffaf4);
+	background: -webkit-linear-gradient(#fff5ee, #fffaf4);
+	background: -o-linear-gradient(#fff5ee, #fffaf4);
+	background: linear-gradient(#fff5ee, #fffaf4);
+}
+
+/* === Batch Upload Page === */
+#batch_upload {
+	text-align: center;
+	border-radius: 5px;
+	margin: 15px auto 0;
+	width: 40%;
+	background-color: #dddddd;
+}
+
+/* === Upload Lot Page === */
+#current_lot {
+
+}
+
+#search_batches {
+	width: 80%;
+	margin: 5px auto 0;
+	padding: 5px;
+	background-color: #dddddd;
+}
+
+.current_batches {
+
+}
+
+#available_batches {
+	width: 80%;
+	margin: 5px auto 0;
+	padding: 5px;
+	background-color: #dddddd;
+}
+
+.batch {
+
+}
