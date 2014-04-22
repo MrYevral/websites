@@ -35,8 +35,8 @@ nav a{
 
 nav li{
 	display: inline-block;
-	padding: 0.5%;
-	color: #E6E6E6;
+	padding: 10px;
+	color: blue;
 	
 }
 
@@ -45,7 +45,7 @@ nav li:hover{
  }
 
 #auctions {
-	width: 60%;
+	width: 80%;
 	margin: 15px auto 0;
 }
 
@@ -53,13 +53,38 @@ nav li:hover{
 	padding: 5px;
 	width: 100%;
 	background-color: #D1D1FF;
-	margin-bottom: 1%;
+	margin-bottom: 5px;
+	border-radius: 5px;
 	float: left;
 }
 
 .auction:hover {
-	background-color: gray;
+	background-color: #cccccc;
 }
 
+/* === Batch Upload Page === */
+#batch_upload {
+	text-align: center;
+	border-radius: 5px;
+	margin: 15px auto 0;
+	width: 40%;
+	background-color: #dddddd;
+}
+
+/* === Upload Lot Page === */
+
+#search_batches {
+	width: 80%;
+	margin: 5px auto 0;
+	padding: 5px;
+	background-color: #dddddd;
+}
+
+#available_batches {
+	width: 80%;
+	margin: 5px auto 0;
+	padding: 5px;
+	background-color: #dddddd;
+}
 
 

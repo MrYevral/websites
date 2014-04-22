@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" type="text/css" href="main.css"/>
+<title>HCI prototype</title>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="adminprofile.html">Your Profile</a></li>
+		</ul>
+	</nav>
+	<h2>Harvey Clark</h2>
+	<h3>Contact Information</h3>
+	Email: Harvey@thefishingassociation.com<br/>
+	Phone: 01354 656565<br/>
+	Mobile: +447545551005<br/>
+	<h2>Add New Fisher...</h2>
+	<form action="adminprofile.html" method="POST">
+	Full Name:<br/><input type="text"/><br/>
+	Email:<br/><input type="text"/><br/>
+	Phone:<br/><input type="text"/><br/>
+	Mobile:<br/><input type="text"/><br/>
+	Username:<br/><input type="text"/><br/>
+	Password:<br/><input type="password"/><br/>
+	Confirm Password:<br/><input type="password"/><br/>
+	<input type="submit" value="Submit"/>
+	</form>
+</body>
+</html>

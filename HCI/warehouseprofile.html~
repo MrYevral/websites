@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" type="text/css" href="main.css"/>
+<title>HCI prototype</title>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="warehouseprofile.html">Your Profile</a></li>
+			<li><a href="createlot.html">Create Lot</a></li>
+		</ul>
+	</nav>
+	<h2>Jess Worker</h2>
+	<h3>Contact Information</h3>
+	Email: Jess@thefishingassociation<br/>
+	Phone: 01354 897856<br/>
+	Mobile: 07758 985214<br/>
+</body>
+</html>

@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #3399FF;
+	font-family: "Arial";
+}
+
+#header {
+	width: 70%;
+	height: 50px;
+	padding: 10px;
+	margin: 0 auto 0;
+	text-align: right;
+}
+
+#header h2 {
+	text-align: left;
+	margin-bottom: 10px;
+}
+#data {
+
+text-align: center;
+
+}
+nav{
+	background: green; 
+	border-radius: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 100%;
+	margin: 5px auto 0;
+}
+
+nav a{
+	color: inherit;
+	text-decoration: none;
+}
+
+nav li{
+	display: inline-block;
+	padding: 10px;
+	color: #ffffff;
+	margin: 0 5px;
+	font-weight: bold;
+}
+
+nav li:hover{
+	color: black;
+ }
+
+#auctions {
+	width: 80%;
+	margin: 15px auto 0;
+}
+
+.auction {
+	padding: 0.5%;
+	width: 25%;
+	background-color: #D1D1FF;
+	margin-bottom: 0.5%;
+	float: left;
+}
+
+
+.auction_details {
+	width: 70%;
+	padding: 0.5%;
+	float: left;
+}
+
+
+#profile {
+	width: 80%;
+	margin: 15px auto 0;
+}
+
+.profile_component {
+	width: 50%;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+/* === Batch Upload Page === */
+#batch_upload {
+	text-align: center;
+	border-radius: 5px;
+	margin: 15px auto 0;
+	width: 40%;
+	background-color: #dddddd;
+}
+
+/* === Upload Lot Page === */
+#current_lot {
+
+}
+
+#search_batches {
+	width: 80%;
+	margin: 5px auto 0;
+	padding: 5px;
+	background-color: #dddddd;
+}
+
+.current_batches {
+
+}
+
+#available_batches {
+	width: 80%;
+	margin: 5px auto 0;
+	padding: 5px;
+	background-color: #dddddd;
+}
+
+.batch {
+
+}
+

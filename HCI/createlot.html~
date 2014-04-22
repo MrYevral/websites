@@ -19,9 +19,9 @@
 		Closing Date: <input type="date"/><br/>
 		Species:
 		<select name="species">
-			<option>kelp</option>
-			<option>cod</option>
-			<option>carp</option>
+			<option>Species 1</option>
+			<option>Species 2</option>
+			<option>Species 3</option>
 		</select><br/><br/>
 		Weight class:<br/>
 		<input type="radio" name="size"/>Small
@@ -34,13 +34,26 @@
 	<h2>Available batches</h2>
 	<div id="auctions">
 		<div class="auction">
-			<h3>Batch #37</h3>
-			Species: kelp<br/>
+			<h3>Batch 123</h3>
+			Species: Species 1<br/>
 			Weight class: Medium<br/>
-			Date caught: 03/04/2014<br/><br/>
-			<input type="button" value="Add"/>
+			Date caught: 01/01/2014<br/><br/>
+			<input type="button" value="Add to lot"/>
 		</div>
-	
+		<div class="auction">
+			<h3>Batch 124</h3>
+			Species: Species 1<br/>
+			Weight class: Medium<br/>
+			Date caught: 01/01/2014<br/><br/>
+			<input type="button" value="Add to lot"/>
+		</div>
+		<div class="auction">
+			<h3>Batch 125</h3>
+			Species: Species 1<br/>
+			Weight class: Medium<br/>
+			Date caught: 01/01/2014<br/><br/>
+			<input type="button" value="Add to lot"/>
+		</div>
 	</div>
 	<input type="button" value="Upload lot to Auction"/>
 </body>

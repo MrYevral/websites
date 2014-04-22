@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" type="text/css" href="main.css"/>
+<title>HCI prototype</title>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="buyerprofile.html">Your Profile</a></li>
+			<li><a href="auctions.html">Auctions</a></li>
+			<li>My Bids</li>
+		</ul>
+	</nav>
+	<h2>Alfred Nother</h2>
+	<h3>Contact Information</h3>
+	Email: ANother@example.com<br/>
+	Phone: 01354 789654<br/>
+	Mobile: 07585 555555<br/>
+	<h3>Payment Information</h3>
+	Card Type: Visa<br/>
+	Cardholder Name: Mr A Nother<br/>
+	Card Number: XXXX-XXXX-XXXX-6548<br/>
+	Card Expires: 04-16
+</body>
+</html>
